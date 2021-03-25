@@ -1,0 +1,12 @@
+/* Webfont: SpaceGrotesk-Regular */@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('SpaceGrotesk-Regular.eot'); /* IE9 Compat Modes */
+    src: url('SpaceGrotesk-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('SpaceGrotesk-Regular.woff') format('woff'), /* Modern Browsers */
+         url('SpaceGrotesk-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('SpaceGrotesk-Regular.svg#SpaceGrotesk-Regular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

@@ -1,0 +1,12 @@
+/* Webfont: SpaceGrotesk-Bold */@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('SpaceGrotesk-Bold.eot'); /* IE9 Compat Modes */
+    src: url('SpaceGrotesk-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('SpaceGrotesk-Bold.woff') format('woff'), /* Modern Browsers */
+         url('SpaceGrotesk-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('SpaceGrotesk-Bold.svg#SpaceGrotesk-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+

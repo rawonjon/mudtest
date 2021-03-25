@@ -1,0 +1,12 @@
+/* Webfont: FKScreamer-Bold */@font-face {
+    font-family: 'FKScreamerBold';
+    src: url('FKScreamer-Bold.eot'); /* IE9 Compat Modes */
+    src: url('FKScreamer-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('FKScreamer-Bold.woff') format('woff'), /* Modern Browsers */
+         url('FKScreamer-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('FKScreamer-Bold.svg#FKScreamer-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
