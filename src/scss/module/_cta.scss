@@ -1,0 +1,50 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// CTA /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+section.cta {
+    background-color: white;
+    @include background();
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 100px;
+    max-width: 1680px;
+    
+}
+
+section.cta div.wrapper {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border: 2px solid $blue;
+    padding: 40px;
+}
+
+section.cta div.wrapper h4 {
+    width: 100%;
+    font-size: 38px;
+}
+
+section.cta div.wrapper p {
+    width: 100%;
+}
+
+section.cta a.button {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+    width: 190px;
+    margin: unset;
+}
+
+@media (max-width: $breakpoint1) {
+    section.cta {
+        padding: 0 60px 100px;
+    }
+}
+
+@media (max-width: $breakpoint3) {
+    section.cta {
+        display: none;
+    }
+}

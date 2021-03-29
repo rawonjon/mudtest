@@ -1,0 +1,48 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////// KSP /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+section.ksp {
+	padding: 200px 60px 100px;
+}
+
+section.ksp h4 {
+	width: 100%;
+	text-align: center;
+	color: white;
+	padding-bottom: 80px;
+}
+
+section.ksp .card {
+	width: calc(((100% / 12) * 4) - 40px);
+	// padding: 40px;
+}
+
+@media (max-width: $breakpoint2) {
+	section.ksp {
+		padding: 100px 60px;
+	}
+}
+
+@media (max-width: $breakpoint4) {
+	section.ksp h4 {
+		padding-bottom: unset;
+	}
+	section.ksp div.wrapper {
+		overflow-x: scroll;
+		scroll-snap-type: x mandatory;
+		
+	}
+	section.ksp div.wrapper::-webkit-scrollbar {
+		display: none;
+		}
+	section.ksp .card {
+		width: unset;
+		min-width: 100%;
+		padding: 40px;
+		scroll-snap-align: center;
+	}
+	section.ksp .button {
+		width: 50%;
+	}
+}

@@ -1,0 +1,63 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////// DECK /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+div.deck {
+    position: relative;
+    display: flex;
+    flex-direction: column;;
+    width: 100%;
+    min-height: 820px;
+
+    // background: lime;
+    // border: 1px solid rebeccapurple;
+
+}
+
+div.track {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-wrap: no-wrap;
+    transition: transform 1000ms ease-in-out;
+    // background: red;
+}
+
+div.track div.card {
+    opacity: 0.5;
+    transition: opacity 1000ms ease-in-out;
+    // border: 1px solid blue;
+}
+
+
+div.track div.card.active {
+    opacity: 1;
+}
+
+
+div.indicators {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    height: 100px;
+}
+
+div.indicators div.dot {
+    width: 18px;
+    height: 18px;
+    margin-right: 18px;
+    background-color: transparent;
+    border: 2px solid $blue;
+    border-radius: 50%;
+}
+div.indicators div.dot:last-child {
+    margin-right: unset;
+}
+div.indicators div.dot.active {
+    background-color: $yellow;
+}

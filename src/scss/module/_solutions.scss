@@ -1,0 +1,32 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// SOLUTIONS /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+section.solutions {
+    max-width: unset;
+    min-width: 100vw;
+    padding: 100px 0;
+
+}
+
+section.solutions .card {
+    width: 698px;
+    width: calc((100% / 12) * 4);
+    padding: 0 83px;
+}
+
+section.solutions .card p {
+    font-size: 21px;
+}
+
+section.solutions .card div.media.round {
+    width: 158px;
+    height: 158px;
+}
+
+
+@media (max-width: $breakpoint5) {
+    section.solutions .card p {
+        font-size: 18px;
+    }
+}

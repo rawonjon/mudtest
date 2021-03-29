@@ -1,0 +1,44 @@
+/* ///////////////////////////////////////////////////////////////////// HEADER /// */
+
+header {
+	z-index: 1;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	// max-width: 1680px;
+	padding: 72px 60px 0 60px;
+	background-color: white;
+	@include background();
+}
+
+header .button.login {
+	// margin-left: auto;
+	// z-index: 1;
+	position: absolute;
+	top: 26px;
+	right: 60px;	
+}
+
+/* //////////////////////////////////////////////////////////////////// COMMENT /// */
+
+@media (max-width: $breakpoint2) {
+	header {
+		padding: 30px 60px;
+		align-items: center;
+		justify-content: space-between;
+	}
+	header nav.menu,
+	header .button.login {
+		display: none;
+	}
+}
+
+@media (max-width: $breakpoint5) {
+	header { 
+		padding: 30px 23px;
+	}
+}
+
+
+

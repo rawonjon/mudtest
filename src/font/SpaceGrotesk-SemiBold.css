@@ -1,0 +1,12 @@
+/* Webfont: SpaceGrotesk-SemiBold */@font-face {
+    font-family: 'SpaceGroteskSemiBold';
+    src: url('SpaceGrotesk-SemiBold.eot'); /* IE9 Compat Modes */
+    src: url('SpaceGrotesk-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('SpaceGrotesk-SemiBold.woff') format('woff'), /* Modern Browsers */
+         url('SpaceGrotesk-SemiBold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('SpaceGrotesk-SemiBold.svg#SpaceGrotesk-SemiBold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

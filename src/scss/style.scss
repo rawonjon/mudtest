@@ -1,55 +1,71 @@
-/*------------------------------------------------------------------------------
------------------------------------------------------------------------IMPORT---
-------------------------------------------------------------------------------*/
-@import 'reset';
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////// GLOBAL /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
 
-@import 'function';
+@import 'global/reset';
 
-@import 'font';
+@import 'global/function';
 
-@import 'var';
+@import 'global/font';
 
-
-/*------------------------------------------------------------------------------
------------------------------------------------------------------------GLOBAL---
-------------------------------------------------------------------------------*/
-*, 
-*:before, 
-*:after {
-	box-sizing: border-box;
-}
-
-html {
-	font-size: 16px;
-}
+@import 'global/var';
 
 
-body {
-	background: white;
-	color: black;
-	// font-family: $font;
-	height: 100%;
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////// COMPONENT /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+@import 'component/button';
+@import 'component/card';
+@import 'component/deck';
+@import 'component/logo';
+@import 'component/media';
+@import 'component/nav';
+@import 'component/text';
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////// STRUCTURE /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+@import 'structure/document';
+@import 'structure/header';
+@import 'structure/main';
+@import 'structure/footer';
+
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////// MODULE /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+@import 'module/intro';
+@import 'module/ksp';
+@import 'module/news';
+@import 'module/cta';
+@import 'module/solutions';
+
+/* //////////////////////////////////////////////////////////////////// GRID GUIDE /// */
+div.grid {
 	display: flex;
+	display: none;
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	
+	background-color: plum;
 }
 
-h1 {
-	font-size: 2rem;
+div.grid > div {
+	display: block;
+	width: 83px;
+	height: 100px;
+	margin-right: 40px;
+	
+	background-color: aliceblue;
+}
+div.grid div:last-child {
+	margin-right: unset;
 }
 
-h2 {
-	font-size: 1.5rem;
-}
 
-a {
-	cursor: pointer;
-	text-decoration: none;
-	&:hover {
-		color: blue;
-	}
-	&:visited {
-		text-decoration: none;
-		decoration: none;
-		color: black;
-	}
-}
 

@@ -25,7 +25,7 @@
     font-weight: 400;
     font-style: normal;
   }
-  
+
   @font-face {
     font-family: 'SpaceGrotesk-Bold';
     src: url('../font/SpaceGrotesk-Bold.eot');
@@ -38,7 +38,20 @@
     font-style: bold;
   }
   
+  @font-face {
+    font-family: 'SpaceGrotesk-SemiBold';
+    src: url('../font/SpaceGrotesk-SemiBold.eot');
+    src: url('../font/SpaceGrotesk-SemiBold.eot?#iefix') format('embedded-opentype'),
+      // url('../font/SpaceGrotesk-SemiBold.woff2') format('woff2'),
+      url('../font/SpaceGrotesk-SemiBold.woff') format('woff'),
+      url('../font/SpaceGrotesk-SemiBold.ttf') format('truetype'),
+      url('../font/SpaceGrotesk-SemiBold.svg#SpaceGrotesk-SemiBold') format('svg');
+    font-weight: 700;
+    font-style: bold;
+  }
   
-  $font-xl: 'FKScreamer', sans-serif;
-  $font-family: 'SpaceGrotesk', sans-serif;
-  $font-bold: 'SpaceGrotesk-Bold', sans-serif;
+  
+  $xl: 'FKScreamer', sans-serif;
+  $font: 'SpaceGrotesk', sans-serif;
+  $bold: 'SpaceGrotesk-Bold', sans-serif;
+  $semibold: 'SpaceGrotesk-Semibold', sans-serif;
