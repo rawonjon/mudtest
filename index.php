@@ -86,17 +86,17 @@
         <div class="wrapper">
             <div class="card">
                 <div class="media round"></div>
-                <h5>Selling Point One</h4>
+                <h5>Selling Point One</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi magnam vero repellat. </p>
             </div>
             <div class="card">
                 <div class="media round"></div>
-                <h5>Selling Point Two</h4>
+                <h5>Selling Point Two</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi magnam vero repellat. </p>
             </div>
             <div class="card">
                 <div class="media round"></div>
-                <h5>Selling Point Three</h4>
+                <h5>Selling Point Three</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi magnam vero repellat. </p>
             </div>
 
@@ -163,21 +163,21 @@
             <div class="track">
                 <div class="card active">
                 <div class="media image round" style="background-image: url(src/gfx/data.png"></div>
-                    <h2 class="impact">Connectivity Solutions</h6>  
+                    <h2 class="impact">Connectivity Solutions</h2>  
                     <p>The route to the internet is about more than just communications; it’s how businesses access the key systems and critical data that they need to operate! </p>
                     <a class="button" data-content="Read More">Read More</a>
                 </div>
 
                 <div class="card">
                 <div class="media image round" style="background-image: url(src/gfx/cloud.png"></div>
-                    <h2 class="impact">Connectivity Solutions</h6>  
+                    <h2 class="impact">Connectivity Solutions</h2>  
                     <p>The route to the internet is about more than just communications; it’s how businesses access the key systems and critical data that they need to operate! </p>
                     <a class="button" data-content="Read More">Read More</a>
                 </div>
 
                 <div class="card">
                     <div class="media image round" style="background-image: url(src/gfx/cloud.png"></div>
-                    <h2 class="impact">Connectivity Solutions</h6>  
+                    <h2 class="impact">Connectivity Solutions</h2>  
                     <p>The route to the internet is about more than just communications; it’s how businesses access the key systems and critical data that they need to operate! </p>
                     <a class="button" data-content="Read More">Read More</a>
                 </div>  
