@@ -25,6 +25,12 @@ section.solutions .card div.media.round {
 }
 
 
+@media (max-width: $breakpoint3) {
+    .button {
+        min-width: calc((100% / 12) * 8);
+    }
+}
+
 @media (max-width: $breakpoint5) {
     section.solutions .card p {
         font-size: 18px;

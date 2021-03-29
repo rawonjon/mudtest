@@ -24,6 +24,12 @@ section.ksp .card {
 	}
 }
 
+@media (max-width: $breakpoint3) {
+    section.ksp .card .button {
+        min-width: calc((100% / 12) * 8);
+    }
+}
+
 @media (max-width: $breakpoint4) {
 	section.ksp h4 {
 		padding-bottom: unset;
@@ -39,10 +45,16 @@ section.ksp .card {
 	section.ksp .card {
 		width: unset;
 		min-width: 100%;
-		padding: 40px;
+		padding: 40px 20px;
 		scroll-snap-align: center;
 	}
 	section.ksp .button {
 		width: 50%;
+	}
+}
+
+@media (max-width: $breakpoint5) {
+	section.ksp {
+		padding: 40px 23px;
 	}
 }

@@ -97,3 +97,9 @@ section.news .card:hover div.media.image:after {
         // border: 1px solid red;
     }
 }
+
+@media (max-width: $breakpoint5) {
+	section.news {
+		padding: 40px 23px;
+	}
+}
