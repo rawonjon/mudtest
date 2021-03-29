@@ -1,0 +1,90 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////// MEDIA /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+div.frame {
+    position: relative;
+    width: 100%;
+    border: 2px solid $blue;
+}
+
+div.media {
+    position: relative;
+}
+
+div.media.image {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+
+div.media.image:before {
+    display: block;
+    padding-top: 100%;
+    content: '';
+}
+
+// div.media:hover {
+//     transform: translate(7px, -7px);
+// }
+
+
+// div.media.image div:nth-of-type(2) {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-color: lightgrey;
+// }
+
+// div.media.image div:nth-of-type(2):before {
+//     display: block;
+//     padding-top: 62.5%;
+//     content: '';
+// }
+
+div.media.image:hover div:nth-of-type(2) {
+    // transform: translate(7px, -7px);
+}
+
+// div.media.image {
+
+// }
+
+// div.media.image > div {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     z-index: 1;
+//     width: 100%;
+//     height: 100%;
+//     background: inherit;
+// }
+
+div.label {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: $yellow;
+    padding: 7px;
+    font-family: $bold;
+}
+
+div.label.cyan {
+    background-color: $cyan;
+}
+
+div.media.round {
+    display: block;
+    height: 206px;
+    width: 206px;
+    background-color: white;
+    background-size: 65%;
+    background-position: center;
+    border: 2px solid $blue;
+    border-radius: 50%;
+}

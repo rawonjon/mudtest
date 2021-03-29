@@ -1,0 +1,57 @@
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////// FONTS /// */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+@font-face {
+    font-family: 'FKScreamer';
+    src: url('../font/FKScreamer-Bold.eot');
+    src: url('../font/FKScreamer-Bold.eot?#iefix') format('embedded-opentype'),
+      // url('../font/FKScreamer-Bold.woff2') format('woff2'),
+      url('../font/FKScreamer-Bold.woff') format('woff'),
+      url('../font/FKScreamer-Bold.ttf') format('truetype'),
+      url('../font/FKScreamer-Bold.svg#FKScreamer-Bold') format('svg');
+    font-weight: 700;
+    font-style: bold;
+  }
+  
+  @font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('../font/SpaceGrotesk-Regular.eot');
+    src: url('../font/SpaceGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+      // url('../font/SpaceGrotesk-Regular.woff2') format('woff2'),
+      url('../font/SpaceGrotesk-Regular.woff') format('woff'),
+      url('../font/SpaceGrotesk-Regular.ttf') format('truetype'),
+      url('../font/SpaceGrotesk-Regular.svg#SpaceGrotesk-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'SpaceGrotesk-Bold';
+    src: url('../font/SpaceGrotesk-Bold.eot');
+    src: url('../font/SpaceGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+      // url('../font/SpaceGrotesk-Bold.woff2') format('woff2'),
+      url('../font/SpaceGrotesk-Bold.woff') format('woff'),
+      url('../font/SpaceGrotesk-Bold.ttf') format('truetype'),
+      url('../font/SpaceGrotesk-Bold.svg#SpaceGrotesk-Bold') format('svg');
+    font-weight: 700;
+    font-style: bold;
+  }
+  
+  @font-face {
+    font-family: 'SpaceGrotesk-SemiBold';
+    src: url('../font/SpaceGrotesk-SemiBold.eot');
+    src: url('../font/SpaceGrotesk-SemiBold.eot?#iefix') format('embedded-opentype'),
+      // url('../font/SpaceGrotesk-SemiBold.woff2') format('woff2'),
+      url('../font/SpaceGrotesk-SemiBold.woff') format('woff'),
+      url('../font/SpaceGrotesk-SemiBold.ttf') format('truetype'),
+      url('../font/SpaceGrotesk-SemiBold.svg#SpaceGrotesk-SemiBold') format('svg');
+    font-weight: 700;
+    font-style: bold;
+  }
+  
+  
+  $xl: 'FKScreamer', sans-serif;
+  $font: 'SpaceGrotesk', sans-serif;
+  $bold: 'SpaceGrotesk-Bold', sans-serif;
+  $semibold: 'SpaceGrotesk-Semibold', sans-serif;

@@ -1,0 +1,76 @@
+/* //////////////////////////////////////////////////////////////////// SECTION /// */
+section.intro {
+	padding: 100px 0;
+	background-color: white;
+	clip-path: ellipse(150% 100% at 50% 0 );
+	@include background();
+}
+
+section.intro article {
+	display: flex;
+	width: 100%;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+section.intro article div.text {
+	align-items: flex-start;
+}
+
+section.intro article div.media.image {
+	width: 50%;
+	background-size: contain;
+}
+
+section.intro .button {
+	font-size: 22px;
+}
+
+
+/* //////////////////////////////////////////////////////////////////// BREAKS /// */
+
+@media (max-width: $breakpoint1) {
+	section.intro {
+		padding: 100px 60px;
+		padding-bottom: 100px;
+	}
+}
+
+@media (max-width: $breakpoint2) {
+	section.intro {
+		padding: 60px;
+		padding-bottom: 100px;
+	}
+}
+
+@media (max-width: $breakpoint3) {
+	section.intro { 
+		padding-top: 0;
+	}
+	section.intro article {
+		flex-wrap: wrap;
+	}
+	section.intro article div.text {
+		order: 2;
+		width: 100%;
+		align-items: flex-start;
+	}
+	section.intro article div.media.image {
+		order: 1;
+		width: 100%
+	}
+	section.intro .button {
+		width: 100%;
+		margin-bottom: 24px;
+	}
+}
+
+@media (max-width: $breakpoint5) {
+	section.intro {
+		padding: 30px 23px 90px;
+	}
+	section.intro .button {
+		font-size: 16px;
+	}
+}

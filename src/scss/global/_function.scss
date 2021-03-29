@@ -2,3 +2,18 @@
 /* /////////////////////////////////////////////////////////////////// FUNCTION /// */
 /* //////////////////////////////////////////////////////////////////////////////// */
 
+@mixin background() {
+	&::before {
+    	z-index: -1;
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 50%;
+		width: 100vw;
+		height: 100%;
+		transform: translateX(-50%);
+		background: inherit;
+		
+		// opacity: 0.5;
+  	}
+}
